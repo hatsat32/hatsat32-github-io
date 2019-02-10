@@ -27,8 +27,10 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
